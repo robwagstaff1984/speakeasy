@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148F11E8B6FA35E398448C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6A0DD42BEF3156F2694B35 /* Foundation.framework */; };
+		A422C5E2397764F6710668E3 /* Pods-Speakeasy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5873F9DBA44D83381A2BFFA8 /* Pods-Speakeasy-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24381FCF2977A371A9E99C2D /* Pods-Speakeasy-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Speakeasy-environment.h"; sourceTree = "<group>"; };
+		3FFA34FAAE68F65415F63545 /* Pods-Speakeasy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Speakeasy-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E7EB561563A816997FEC3F6 /* libPods-Speakeasy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Speakeasy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5873F9DBA44D83381A2BFFA8 /* Pods-Speakeasy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Speakeasy-dummy.m"; sourceTree = "<group>"; };
+		83D195CA125B264915155122 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
+		860231153F559B12374E335D /* Pods-Speakeasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Speakeasy.debug.xcconfig"; sourceTree = "<group>"; };
+		944AB0044445976BBCBC64E9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17355A2A3584BA608B4DF78 /* Pods-Speakeasy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Speakeasy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC6A0DD42BEF3156F2694B35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1EF0DEA65858B44FFA06989 /* Pods-Speakeasy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Speakeasy.release.xcconfig"; sourceTree = "<group>"; };
+		DE37575C6BD179CFB872E0B9 /* Pods-Speakeasy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Speakeasy-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10D78AD27DC37BEE72724B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F11E8B6FA35E398448C92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006F3B7BD314F5FFA4E92547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D195CA125B264915155122 /* Quickblox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D01EF8635DDE0B1D58244A1 = {
+			isa = PBXGroup;
+			children = (
+				944AB0044445976BBCBC64E9 /* Podfile */,
+				CE769D16207326C4C896ABC3 /* Frameworks */,
+				7E3C14F3FED3CC61C5E0EA90 /* Pods */,
+				B9732C9653EB0B326110B3F4 /* Products */,
+				272C9D161EAB30B3E38104D0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		272C9D161EAB30B3E38104D0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E132D358D6FCB05FCC8C3F /* Pods-Speakeasy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29E132D358D6FCB05FCC8C3F /* Pods-Speakeasy */ = {
+			isa = PBXGroup;
+			children = (
+				A17355A2A3584BA608B4DF78 /* Pods-Speakeasy-acknowledgements.markdown */,
+				3FFA34FAAE68F65415F63545 /* Pods-Speakeasy-acknowledgements.plist */,
+				5873F9DBA44D83381A2BFFA8 /* Pods-Speakeasy-dummy.m */,
+				24381FCF2977A371A9E99C2D /* Pods-Speakeasy-environment.h */,
+				DE37575C6BD179CFB872E0B9 /* Pods-Speakeasy-resources.sh */,
+				860231153F559B12374E335D /* Pods-Speakeasy.debug.xcconfig */,
+				C1EF0DEA65858B44FFA06989 /* Pods-Speakeasy.release.xcconfig */,
+			);
+			name = "Pods-Speakeasy";
+			path = "Target Support Files/Pods-Speakeasy";
+			sourceTree = "<group>";
+		};
+		613C09A67C8961C825B735F8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC6A0DD42BEF3156F2694B35 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E3C14F3FED3CC61C5E0EA90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E1355E55BD2D42007C200B4 /* QuickBlox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E1355E55BD2D42007C200B4 /* QuickBlox */ = {
+			isa = PBXGroup;
+			children = (
+				006F3B7BD314F5FFA4E92547 /* Frameworks */,
+			);
+			path = QuickBlox;
+			sourceTree = "<group>";
+		};
+		B9732C9653EB0B326110B3F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7EB561563A816997FEC3F6 /* libPods-Speakeasy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE769D16207326C4C896ABC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613C09A67C8961C825B735F8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54AD6B08F9C8C71C2E257AF /* Pods-Speakeasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09D91649A5B0918909D7A23 /* Build configuration list for PBXNativeTarget "Pods-Speakeasy" */;
+			buildPhases = (
+				B5F2FB2C6D5A97A39CB39AC6 /* Sources */,
+				10D78AD27DC37BEE72724B0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Speakeasy";
+			productName = "Pods-Speakeasy";
+			productReference = 4E7EB561563A816997FEC3F6 /* libPods-Speakeasy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C285C223E2A33E4579494B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 35E796352AA6D21CBEEDD767 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D01EF8635DDE0B1D58244A1;
+			productRefGroup = B9732C9653EB0B326110B3F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54AD6B08F9C8C71C2E257AF /* Pods-Speakeasy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F2FB2C6D5A97A39CB39AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A422C5E2397764F6710668E3 /* Pods-Speakeasy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B066075C4C6BFF69FDFD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11DBE44C0BE7DD1F79893158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A82C103364DBAFC4C0B57837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EF0DEA65858B44FFA06989 /* Pods-Speakeasy.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E0990390686E1A9B7723B682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860231153F559B12374E335D /* Pods-Speakeasy.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E796352AA6D21CBEEDD767 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DBE44C0BE7DD1F79893158 /* Debug */,
+				0B066075C4C6BFF69FDFD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09D91649A5B0918909D7A23 /* Build configuration list for PBXNativeTarget "Pods-Speakeasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0990390686E1A9B7723B682 /* Debug */,
+				A82C103364DBAFC4C0B57837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C285C223E2A33E4579494B /* Project object */;
+}
